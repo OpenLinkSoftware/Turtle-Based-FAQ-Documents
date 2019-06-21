@@ -7,253 +7,239 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#af7afd1e2a98102da02df543d99c01bbc03b4e03> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#6232bb1b8b43b8f4714f7e258b63651c78f9d4ed> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#af7afd1e2a98102da02df543d99c01bbc03b4e03> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#6232bb1b8b43b8f4714f7e258b63651c78f9d4ed> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is an RDF knowledge graph?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#6232bb1b8b43b8f4714f7e258b63651c78f9d4ed> .
+	schema:name "What is an RDF knowledge graph?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#6232bb1b8b43b8f4714f7e258b63651c78f9d4ed> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is an RDF knowledge graph?" ;
-	schema:text "An RDF Knowledge Graph is an Entity Relationship Model that manifests as a Semantic Web comprising Linked Data." ;
+	oplfaq:hasAnswerText "An RDF Knowledge Graph is an Entity Relationship Model that manifests as a Semantic Web comprising Linked Data." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#4395390d493f2bed3ddd42d3e8b5985053da1605> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c95508fd28ec621a7ba7f76d1bfaeb81c425eac4> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#4395390d493f2bed3ddd42d3e8b5985053da1605> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c95508fd28ec621a7ba7f76d1bfaeb81c425eac4> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Is linked data supported in browsers currently?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c95508fd28ec621a7ba7f76d1bfaeb81c425eac4> .
+	schema:name "Is linked data supported in browsers currently?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c95508fd28ec621a7ba7f76d1bfaeb81c425eac4> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Is linked data supported in browsers currently?" ;
-	schema:text "Currently, traditional HTML Document Browsers (a/k/a Web Browsers) do not support Linked Data in a manner that actually reveals its fundamental value proposition re. data discovery, access, and interchange" ;
+	oplfaq:hasAnswerText "Currently, traditional HTML Document Browsers (a/k/a Web Browsers) do not support Linked Data in a manner that actually reveals its fundamental value proposition re. data discovery, access, and interchange" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#463296d5ccbfc9aee7faa93741cc5d5d9990097f> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c32479b9cdd5c6cffef04ebac7948fe3e8503703> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#463296d5ccbfc9aee7faa93741cc5d5d9990097f> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c32479b9cdd5c6cffef04ebac7948fe3e8503703> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the main pros of property graph databases compared to triplestores?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c32479b9cdd5c6cffef04ebac7948fe3e8503703> .
+	schema:name "What are the main pros of property graph databases compared to triplestores?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c32479b9cdd5c6cffef04ebac7948fe3e8503703> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the main pros of property graph databases compared to triplestores?" ;
-	schema:text "In my opinion and experience there are no pros offered by a Database Management System (DBMS) referred to as a Labeled Property Graphs DBMS when compared to an RDF-Compliant DBMS (Triple Store or Quad Store)." ;
+	oplfaq:hasAnswerText "In my opinion and experience there are no pros offered by a Database Management System (DBMS) referred to as a Labeled Property Graphs DBMS when compared to an RDF-Compliant DBMS (Triple Store or Quad Store)." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c96ecfd11686bf12e8feb504b49fc01294e6dc8c> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8bc92e46c9e5895f52e72f6fa05ffb4be1d17305> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c96ecfd11686bf12e8feb504b49fc01294e6dc8c> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8bc92e46c9e5895f52e72f6fa05ffb4be1d17305> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is the meaning of ontology?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8bc92e46c9e5895f52e72f6fa05ffb4be1d17305> .
+	schema:name "What is the meaning of ontology?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8bc92e46c9e5895f52e72f6fa05ffb4be1d17305> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is the meaning of ontology?" ;
-	schema:text "An Ontology describes Entity Types and Relationship Types in a form readable by both humans and machines." ;
+	oplfaq:hasAnswerText "An Ontology describes Entity Types and Relationship Types in a form readable by both humans and machines." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b1c645941fa7e89118603831bd255d53549953ae> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#a361fcda1d10437d8c0cc0933585743f63212ee9> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b1c645941fa7e89118603831bd255d53549953ae> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#a361fcda1d10437d8c0cc0933585743f63212ee9> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are some tools that can query very large unstructured data sets in a SQL like syntax? What's the best?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#a361fcda1d10437d8c0cc0933585743f63212ee9> .
+	schema:name "What are some tools that can query very large unstructured data sets in a SQL like syntax? What's the best?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#a361fcda1d10437d8c0cc0933585743f63212ee9> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are some tools that can query very large unstructured data sets in a SQL like syntax? What's the best?" ;
-	schema:text """SPARQL is a Query Language with a SQL-Like syntax from the W3C.
+	oplfaq:hasAnswerText """SPARQL is a Query Language with a SQL-Like syntax from the W3C.
 
 Our Virtuoso Multi-Model RDBMS and Data Virtualization Platform includes support for SQL, SPARQL, and a Hybrid Language called SPASQL.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8def2bc5663eaf04dbe7908ff03c836de9901796> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#151d5bad9d187a61bc3eb7e13e3dfdaff1b54e0d> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8def2bc5663eaf04dbe7908ff03c836de9901796> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#151d5bad9d187a61bc3eb7e13e3dfdaff1b54e0d> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What's your estimate of the Semantic Web market size?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#151d5bad9d187a61bc3eb7e13e3dfdaff1b54e0d> .
+	schema:name "What's your estimate of the Semantic Web market size?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#151d5bad9d187a61bc3eb7e13e3dfdaff1b54e0d> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What's your estimate of the Semantic Web market size?" ;
-	schema:text "In excess of a Trillion Dollars USD - see our googlespreadsheet" ;
+	oplfaq:hasAnswerText "In excess of a Trillion Dollars USD - see our googlespreadsheet" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#64784680518a3f6ac30ca8c87675feb10fa6eead> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0fa9f159a603212d7f58c83fcd93dcc1195163bd> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#64784680518a3f6ac30ca8c87675feb10fa6eead> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0fa9f159a603212d7f58c83fcd93dcc1195163bd> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are some features of database?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0fa9f159a603212d7f58c83fcd93dcc1195163bd> .
+	schema:name "What are some features of database?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0fa9f159a603212d7f58c83fcd93dcc1195163bd> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are some features of database?" ;
-	schema:text "A database is a document comprising observations represented as Entity Relationship Types Relations as its structured content. In addition, the aforementioned content is persisted in durable form using a variety of serialization formats." ;
+	oplfaq:hasAnswerText "A database is a document comprising observations represented as Entity Relationship Types Relations as its structured content. In addition, the aforementioned content is persisted in durable form using a variety of serialization formats." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#34400ebfda03b0960257529a873bba95262b416b> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1bfc10d8360daceed9d4a28d11f9d6bc3f4b2902> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#34400ebfda03b0960257529a873bba95262b416b> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1bfc10d8360daceed9d4a28d11f9d6bc3f4b2902> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "In layman's terms, what is the essence of Sir Tim Berners-Lee's project Solid?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1bfc10d8360daceed9d4a28d11f9d6bc3f4b2902> .
+	schema:name "In layman's terms, what is the essence of Sir Tim Berners-Lee's project Solid?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1bfc10d8360daceed9d4a28d11f9d6bc3f4b2902> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "In layman's terms, what is the essence of Sir Tim Berners-Lee's project Solid?" ;
-	schema:text "Laymans part of the answer : Providing a framework for developing and deploying applications with the following fundamental characteristics" ;
+	oplfaq:hasAnswerText "Laymans part of the answer : Providing a framework for developing and deploying applications with the following fundamental characteristics" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#eb76459a11382999d96907258d08c14753f88531> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#af9ecfc6a3bd056935761262a1cf60e8e021239d> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#eb76459a11382999d96907258d08c14753f88531> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#af9ecfc6a3bd056935761262a1cf60e8e021239d> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the differences between a Graph database and a Triple store ?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#af9ecfc6a3bd056935761262a1cf60e8e021239d> .
+	schema:name "What are the differences between a Graph database and a Triple store ?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#af9ecfc6a3bd056935761262a1cf60e8e021239d> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the differences between a Graph database and a Triple store ?" ;
-	schema:text "some key distinctions between a Triple/Quad Store and a so-called “Graph Database" ;
+	oplfaq:hasAnswerText "some key distinctions between a Triple/Quad Store and a so-called “Graph Database" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e9d6ff36a3e831f0456c0f6bd080d6180ff4b683> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#563e530c2d0cdb6f39e95c25fd6318c55da41916> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e9d6ff36a3e831f0456c0f6bd080d6180ff4b683> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#563e530c2d0cdb6f39e95c25fd6318c55da41916> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the main reasons for the slow uptake of Semantic Web technologies?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#563e530c2d0cdb6f39e95c25fd6318c55da41916> .
+	schema:name "What are the main reasons for the slow uptake of Semantic Web technologies?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#563e530c2d0cdb6f39e95c25fd6318c55da41916> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the main reasons for the slow uptake of Semantic Web technologies?" ;
-	schema:text "In my experience the reasons are as follows: Understanding the nature of a Semantic Web and End-user tool shortage and unclarity" ;
+	oplfaq:hasAnswerText "In my experience the reasons are as follows: Understanding the nature of a Semantic Web and End-user tool shortage and unclarity" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0beddb78f1309a10a9d32463452ab0d0ee630fd6> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bfb8fc123bf76f76e5f6442ae5f63eb040a2cf0f> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0beddb78f1309a10a9d32463452ab0d0ee630fd6> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bfb8fc123bf76f76e5f6442ae5f63eb040a2cf0f> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Is there any demand for SQL language nowadays?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bfb8fc123bf76f76e5f6442ae5f63eb040a2cf0f> .
+	schema:name "Is there any demand for SQL language nowadays?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bfb8fc123bf76f76e5f6442ae5f63eb040a2cf0f> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Is there any demand for SQL language nowadays?" ;
-	schema:text """There will always be demand for SQL (overt or covert) as long as any of the following conditions exist: High-Performance read-write interactions with data, at various scales
+	oplfaq:hasAnswerText """There will always be demand for SQL (overt or covert) as long as any of the following conditions exist: High-Performance read-write interactions with data, at various scales
 Data Wrangling to harmonize heterogeneously shaped data across disparate data sources— e.g, using Data Virtualization
 Data expression via Entity Relationship Types (Relations) The first thing about SQL is that it is an open standard. It isn’t perfect, but its imperfections should be addressed using complimentary standards rather than wholesale replacements that at are ad-hoc and proprietary in nature. There will never be any sound justification for throwing 40+ years of Relational Model Theory and Research down the drain, for the latest query language fad.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#4cbb4f08e717bb1e9ef515682bb3cc950b97bc61> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1fdd84cc1ff7a823e9e3284784525b80e0fdad7> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#4cbb4f08e717bb1e9ef515682bb3cc950b97bc61> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1fdd84cc1ff7a823e9e3284784525b80e0fdad7> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is difference between ordinary web and semantic web?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1fdd84cc1ff7a823e9e3284784525b80e0fdad7> .
+	schema:name "What is difference between ordinary web and semantic web?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1fdd84cc1ff7a823e9e3284784525b80e0fdad7> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is difference between ordinary web and semantic web?" ;
-	schema:text "The difference between a basic Web and a Semantic Web boils down to how both humans and machines understand the nature of hyperlinks, based on how they are used on content creation." ;
+	oplfaq:hasAnswerText "The difference between a basic Web and a Semantic Web boils down to how both humans and machines understand the nature of hyperlinks, based on how they are used on content creation." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#d92b20d53b8379c7e01094c8d586e9d409fdcac6> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#494d1d31caff3b92839dc1c9fe473c5f1f611e57> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#d92b20d53b8379c7e01094c8d586e9d409fdcac6> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#494d1d31caff3b92839dc1c9fe473c5f1f611e57> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is the highest value application of semantic web technology?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#494d1d31caff3b92839dc1c9fe473c5f1f611e57> .
+	schema:name "What is the highest value application of semantic web technology?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#494d1d31caff3b92839dc1c9fe473c5f1f611e57> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is the highest value application of semantic web technology?" ;
-	schema:text "The ability to replicate Language within the medium provided by a Web. Fundamentally, this is about using hyperlinks to construct sentences as THE mechanism for creating and publishing data, information, and knowledge." ;
+	oplfaq:hasAnswerText "The ability to replicate Language within the medium provided by a Web. Fundamentally, this is about using hyperlinks to construct sentences as THE mechanism for creating and publishing data, information, and knowledge." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8aac95cc2de78afba82048501b65f91219fcc572> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#de8477e6074ddbbe6ee0e9eeba8665bfb8350d3d> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8aac95cc2de78afba82048501b65f91219fcc572> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#de8477e6074ddbbe6ee0e9eeba8665bfb8350d3d> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "How do I map a relational database to a graph database like Neo4j?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#de8477e6074ddbbe6ee0e9eeba8665bfb8350d3d> .
+	schema:name "How do I map a relational database to a graph database like Neo4j?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#de8477e6074ddbbe6ee0e9eeba8665bfb8350d3d> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
@@ -262,212 +248,201 @@ Data expression via Entity Relationship Types (Relations) The first thing about 
 	schema:name "How do I map a relational database to a graph database like Neo4j?" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8c1a2ffc49972d8a15e9de158d1692e059384539> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#5f50b665dd127b4e19e323293e2de9fbc025d4ae> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#8c1a2ffc49972d8a15e9de158d1692e059384539> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#5f50b665dd127b4e19e323293e2de9fbc025d4ae> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Why didn't the creator of the hashtag patent the concept?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#5f50b665dd127b4e19e323293e2de9fbc025d4ae> .
+	schema:name "Why didn't the creator of the hashtag patent the concept?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#5f50b665dd127b4e19e323293e2de9fbc025d4ae> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Why didn't the creator of the hashtag patent the concept?" ;
-	schema:text "Tim Berners-Lee creator of the Web (Documents and Data connected via Hyperlinks), didn’t patent his invention so the Web would explode, as it has today. Note, the HTTP Fragment Identifier (“#”) has been a fundamental component of URIs and URLs, since Web inception." ;
+	oplfaq:hasAnswerText "Tim Berners-Lee creator of the Web (Documents and Data connected via Hyperlinks), didn’t patent his invention so the Web would explode, as it has today. Note, the HTTP Fragment Identifier (“#”) has been a fundamental component of URIs and URLs, since Web inception." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#fc8867ee246fbcfdd89c89a92da5f2a6a3f8562a> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ee8bcfcf871d17cbcbf9d259e64c7306e7d19e40> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#fc8867ee246fbcfdd89c89a92da5f2a6a3f8562a> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ee8bcfcf871d17cbcbf9d259e64c7306e7d19e40> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is Data Virtualization?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ee8bcfcf871d17cbcbf9d259e64c7306e7d19e40> .
+	schema:name "What is Data Virtualization?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ee8bcfcf871d17cbcbf9d259e64c7306e7d19e40> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is Data Virtualization?" ;
-	schema:text """Data Virtualization enables interaction with data that isn’t compromised by any of the following:Data Structure
+	oplfaq:hasAnswerText """Data Virtualization enables interaction with data that isn’t compromised by any of the following:Data Structure
 Data Serialization Format
 Data Storage Location
 Data Access Protocol
 A number of open standards (URI, URL, HTTP, ODBC, JDBC, RDF, etc.) already exist that make what’s outlined above feasible.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#f3cf66e10551a993acfb0f93d27e3bf32353d09b> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#078706834776d83184669eaefa6e04e982416f50> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#f3cf66e10551a993acfb0f93d27e3bf32353d09b> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#078706834776d83184669eaefa6e04e982416f50> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the advantages and disadvantages of semantic web?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#078706834776d83184669eaefa6e04e982416f50> .
+	schema:name "What are the advantages and disadvantages of semantic web?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#078706834776d83184669eaefa6e04e982416f50> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the advantages and disadvantages of semantic web?" ;
-	schema:text "Advantage of a Semantic Web boils down to the nature of vast amounts of data, information, and knowledge being accessible and comprehensible to Smart Agents, Bots, Virtual Assistants, and anything else you could imagine benefiting from the notion of Artificial Intelligence." ;
+	oplfaq:hasAnswerText "Advantage of a Semantic Web boils down to the nature of vast amounts of data, information, and knowledge being accessible and comprehensible to Smart Agents, Bots, Virtual Assistants, and anything else you could imagine benefiting from the notion of Artificial Intelligence." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#9efe66e2e498363674f4035e2e66e98599b9b00b> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#94a9f6cac39b2b2b34397b2f0c2c197483d7e298> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#9efe66e2e498363674f4035e2e66e98599b9b00b> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#94a9f6cac39b2b2b34397b2f0c2c197483d7e298> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is the purpose of data virtualization?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#94a9f6cac39b2b2b34397b2f0c2c197483d7e298> .
+	schema:name "What is the purpose of data virtualization?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#94a9f6cac39b2b2b34397b2f0c2c197483d7e298> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is the purpose of data virtualization?" ;
-	schema:text """Abstraction that transcends the following aspects of Data:Structural Disparity
+	oplfaq:hasAnswerText """Abstraction that transcends the following aspects of Data:Structural Disparity
 Location Disparity
 Data Access Protocol Disparity
 Conceptual Disparity
 A modern Data Virtualization solution would provide a Semantic Web atop data sources affected by any of the issues above.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0fe8155176df687a06bb46de35d03e6a76639157> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b72643a87f22b3e15474b3459ca9e6f12d9b8c76> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0fe8155176df687a06bb46de35d03e6a76639157> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b72643a87f22b3e15474b3459ca9e6f12d9b8c76> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What’s the best tool to use to convert non-RDF data to RDF?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b72643a87f22b3e15474b3459ca9e6f12d9b8c76> .
+	schema:name "What’s the best tool to use to convert non-RDF data to RDF?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b72643a87f22b3e15474b3459ca9e6f12d9b8c76> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What’s the best tool to use to convert non-RDF data to RDF?" ;
-	schema:text "You can take a look at the Virtuoso Sponger Middleware that includes RDF Transformation Cartridges (Drivers) for more than 75 different data formats and/or APIs." ;
+	oplfaq:hasAnswerText "You can take a look at the Virtuoso Sponger Middleware that includes RDF Transformation Cartridges (Drivers) for more than 75 different data formats and/or APIs." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0cbfdd07cd9ec288561115416077e0932d08a707> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1ca54819d3212936d60ae0d79a6a29d7c99c5da8> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0cbfdd07cd9ec288561115416077e0932d08a707> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1ca54819d3212936d60ae0d79a6a29d7c99c5da8> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "How can I extend the RDF vocabulary?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1ca54819d3212936d60ae0d79a6a29d7c99c5da8> .
+	schema:name "How can I extend the RDF vocabulary?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1ca54819d3212936d60ae0d79a6a29d7c99c5da8> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "How can I extend the RDF vocabulary?" ;
-	schema:text "You don’t extend the RDF base Vocabulary[1] since that is a collection of terms that define the very nature of RDF Language sentences. Naturally, you can always create your own vocabulary of terms, for use in RDF Language statements as you see fit, even if the goal is to extend the nature of RDF — using your own “context lenses” (what a vocabulary of terms is all about)." ;
+	oplfaq:hasAnswerText "You don’t extend the RDF base Vocabulary[1] since that is a collection of terms that define the very nature of RDF Language sentences. Naturally, you can always create your own vocabulary of terms, for use in RDF Language statements as you see fit, even if the goal is to extend the nature of RDF — using your own “context lenses” (what a vocabulary of terms is all about)." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#89bb13bbd1ca7d5184f6660d0125617630b4ae08> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7991959f1fc62a36c12ccd95ec33be664aa7b86d> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#89bb13bbd1ca7d5184f6660d0125617630b4ae08> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7991959f1fc62a36c12ccd95ec33be664aa7b86d> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the disadvantages of using hybrid database?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7991959f1fc62a36c12ccd95ec33be664aa7b86d> .
+	schema:name "What are the disadvantages of using hybrid database?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7991959f1fc62a36c12ccd95ec33be664aa7b86d> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the disadvantages of using hybrid database?" ;
-	schema:text "A Hybrid (or Multi-Model) RDBMS accords the advantage of being able to work with data (relations) represented in a variety of ways. For instance, Virtuoso[1] (our product) provides the ability to manage data as relational tables or relational statement/sentence graphs — which also enables the use of both SQL and SPARQL query languages for data definition and data interaction operations." ;
+	oplfaq:hasAnswerText "A Hybrid (or Multi-Model) RDBMS accords the advantage of being able to work with data (relations) represented in a variety of ways. For instance, Virtuoso[1] (our product) provides the ability to manage data as relational tables or relational statement/sentence graphs — which also enables the use of both SQL and SPARQL query languages for data definition and data interaction operations." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#04bfa2ebf93f4651701cacd269aab14d5eaff944> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb07369bb3b700507d232124503837a0c87af3f3> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#04bfa2ebf93f4651701cacd269aab14d5eaff944> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb07369bb3b700507d232124503837a0c87af3f3> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Is semantic web the future?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb07369bb3b700507d232124503837a0c87af3f3> .
+	schema:name "Is semantic web the future?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb07369bb3b700507d232124503837a0c87af3f3> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Is semantic web the future?" ;
-	schema:text "It’s the past, present and future. Why? Because the Web has always leveraged hyperlinks as relationship type identifiers — albeit with varying degrees of comprehension and appreciation on the part of its users :)In due course, what was nascent will become obvious i.e., the fact that the Web has always been a collection of sentences where subject, predicate, and object (optionally) are identified by hyperlinks." ;
+	oplfaq:hasAnswerText "It’s the past, present and future. Why? Because the Web has always leveraged hyperlinks as relationship type identifiers — albeit with varying degrees of comprehension and appreciation on the part of its users :)In due course, what was nascent will become obvious i.e., the fact that the Web has always been a collection of sentences where subject, predicate, and object (optionally) are identified by hyperlinks." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#47ddd235b84bb1cc954c281fe16e972a568377ad> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1c9ea01df704beffb7b0f1ffea4ef94acf4b52d5> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#47ddd235b84bb1cc954c281fe16e972a568377ad> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1c9ea01df704beffb7b0f1ffea4ef94acf4b52d5> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the JDBC driver types? How many are there?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1c9ea01df704beffb7b0f1ffea4ef94acf4b52d5> .
+	schema:name "What are the JDBC driver types? How many are there?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1c9ea01df704beffb7b0f1ffea4ef94acf4b52d5> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the JDBC driver types? How many are there?" ;
-	schema:text """There are 4 Types of JDBC Driver.
+	oplfaq:hasAnswerText """There are 4 Types of JDBC Driver.
 
 Type 1 — JDBC to ODBC Bridge where the JDBC Driver implementation is a mapping to the ODBC API on a given host operating system e.g., on Windows its a mapping to the ODBC API that’s delivered with Windows while on Linux, Mac OS X, and Unix (HP-UX, Solaris, AIX etc.) its a bridge to the ODBC APIs delivered by iODBC or UnixODBC""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#39636bdcedea668ab6783c2dce994e894ccf7b22> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#3cb3a21046dca39f174aba8bb44cbbebb39a3ade> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#39636bdcedea668ab6783c2dce994e894ccf7b22> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#3cb3a21046dca39f174aba8bb44cbbebb39a3ade> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are example of SPARQL queries that are too cumbersome to be executed in SQL?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#3cb3a21046dca39f174aba8bb44cbbebb39a3ade> .
+	schema:name "What are example of SPARQL queries that are too cumbersome to be executed in SQL?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#3cb3a21046dca39f174aba8bb44cbbebb39a3ade> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are example of SPARQL queries that are too cumbersome to be executed in SQL?" ;
-	schema:text "As is the case with matters relating to a Semantic Web e.g., SPARQL Query Language. We must start with some conceptual clarity." ;
+	oplfaq:hasAnswerText "As is the case with matters relating to a Semantic Web e.g., SPARQL Query Language. We must start with some conceptual clarity." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#85efc35a3ab88e6a4bb1e42e452171dcf504ceec> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#134ccad8fde1a8e18c52b9e26c3797c2a127c51b> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#85efc35a3ab88e6a4bb1e42e452171dcf504ceec> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#134ccad8fde1a8e18c52b9e26c3797c2a127c51b> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Can JSON-LD be used instead of RDF?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#134ccad8fde1a8e18c52b9e26c3797c2a127c51b> .
+	schema:name "Can JSON-LD be used instead of RDF?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#134ccad8fde1a8e18c52b9e26c3797c2a127c51b> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Can JSON-LD be used instead of RDF?" ;
-	schema:text """As per usual, with all matters related to RDF (Resource Description Framework), it’s best to start with some conceptual clarity.
+	oplfaq:hasAnswerText """As per usual, with all matters related to RDF (Resource Description Framework), it’s best to start with some conceptual clarity.
 
 RDF is an abstract language which implies the following:
 
@@ -478,211 +453,200 @@ Based on what’s outlined above, you can create RDF Language Sentences/Statemen
 The following screenshots show the same structured data from a single page using JSON-LD and RDF-Turtle notations. Basically, RDF Language-based data using different notations.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#30e3a731186003d0ba9b63b3cecde854175ccce7> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#faf16d0c772744ffe9aa29d1feed464baba39d82> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#30e3a731186003d0ba9b63b3cecde854175ccce7> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#faf16d0c772744ffe9aa29d1feed464baba39d82> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the advantages of semantic web?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#faf16d0c772744ffe9aa29d1feed464baba39d82> .
+	schema:name "What are the advantages of semantic web?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#faf16d0c772744ffe9aa29d1feed464baba39d82> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the advantages of semantic web?" ;
-	schema:text "Advantages of a Semantic Web (rather than “The Semantic Web”) are best understood and appreciated, when conceptual clarity is in place." ;
+	oplfaq:hasAnswerText "Advantages of a Semantic Web (rather than “The Semantic Web”) are best understood and appreciated, when conceptual clarity is in place." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e4d5663166421ebb040ba0c2a8d7ba39e5849f68> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c407a3ae4407ed70db6b91f8fc83e09787b3c920> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e4d5663166421ebb040ba0c2a8d7ba39e5849f68> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c407a3ae4407ed70db6b91f8fc83e09787b3c920> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is semantic psychology?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c407a3ae4407ed70db6b91f8fc83e09787b3c920> .
+	schema:name "What is semantic psychology?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#c407a3ae4407ed70db6b91f8fc83e09787b3c920> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is semantic psychology?" ;
-	schema:text "No idea :)" ;
+	oplfaq:hasAnswerText "No idea :)" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1923f96b266e1b029e53cecf6be66a411885a866> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#20e92a8fbba6889e1db1d0ec4024774e341fa8b3> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1923f96b266e1b029e53cecf6be66a411885a866> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#20e92a8fbba6889e1db1d0ec4024774e341fa8b3> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "How popular is SPARQL and how does its future look?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#20e92a8fbba6889e1db1d0ec4024774e341fa8b3> .
+	schema:name "How popular is SPARQL and how does its future look?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#20e92a8fbba6889e1db1d0ec4024774e341fa8b3> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "How popular is SPARQL and how does its future look?" ;
-	schema:text "SPARQL is still very much a new Query Language as far as the mainstream of DBMS related technology goes. Naturally, within DBMS niches such as RDF-compliant RDBMS and Stores, it is extremely popular and broadly used." ;
+	oplfaq:hasAnswerText "SPARQL is still very much a new Query Language as far as the mainstream of DBMS related technology goes. Naturally, within DBMS niches such as RDF-compliant RDBMS and Stores, it is extremely popular and broadly used." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1bab3b105ee9bbdd9f275740f0842bde5ba9d797> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#05868f9f66cef37f0d6828302a0b141b26f2e536> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#1bab3b105ee9bbdd9f275740f0842bde5ba9d797> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#05868f9f66cef37f0d6828302a0b141b26f2e536> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What does schema.org have to do with semantic web RDF and other related technology?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#05868f9f66cef37f0d6828302a0b141b26f2e536> .
+	schema:name "What does schema.org have to do with semantic web RDF and other related technology?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#05868f9f66cef37f0d6828302a0b141b26f2e536> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What does schema.org have to do with semantic web RDF and other related technology?" ;
-	schema:text """is a vocabulary of terms. Basically, it provides a collection of terms for constructing sentences using RDF Language.
+	oplfaq:hasAnswerText """is a vocabulary of terms. Basically, it provides a collection of terms for constructing sentences using RDF Language.
 
 The abstract nature of RDF Language (signs, syntax, and semantics) enables creation and publication of sentences, as document content [in a variety formats], that are comprehendible by both machines (software) and humans.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0d8b98cb55fac157abe50757ec8c1f89d8e3e012> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#93fef8f9d06c8cab988bf0cd250ba5e86f0c6d7c> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0d8b98cb55fac157abe50757ec8c1f89d8e3e012> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#93fef8f9d06c8cab988bf0cd250ba5e86f0c6d7c> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Why is the semantic web important?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#93fef8f9d06c8cab988bf0cd250ba5e86f0c6d7c> .
+	schema:name "Why is the semantic web important?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#93fef8f9d06c8cab988bf0cd250ba5e86f0c6d7c> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Why is the semantic web important?" ;
-	schema:text """Because it brings sentences to the Web i.e., the subject, predicate, and objects (optionally) of a sentence are identified using hyperlinks.
+	oplfaq:hasAnswerText """Because it brings sentences to the Web i.e., the subject, predicate, and objects (optionally) of a sentence are identified using hyperlinks.
 
 """ ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#889b8351fc0a50acb299de9fa1aad4a90295b315> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7a591d6b66dd7123b8a20df40b389fa935278a02> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#889b8351fc0a50acb299de9fa1aad4a90295b315> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7a591d6b66dd7123b8a20df40b389fa935278a02> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "How do I create a connection between Excel and a data source using ODBC provider?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7a591d6b66dd7123b8a20df40b389fa935278a02> .
+	schema:name "How do I create a connection between Excel and a data source using ODBC provider?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#7a591d6b66dd7123b8a20df40b389fa935278a02> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "How do I create a connection between Excel and a data source using ODBC provider?" ;
-	schema:text "Here a post about connecting Excel to an backend RDBMS that applies to both Windows and Mac OS X [1]." ;
+	oplfaq:hasAnswerText "Here a post about connecting Excel to an backend RDBMS that applies to both Windows and Mac OS X [1]." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#47c980afd8df35bf60cf1a8eca853f133daa7e09> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ffbdd6d564492b7559e763ebacae0b40b7bb1677> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#47c980afd8df35bf60cf1a8eca853f133daa7e09> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ffbdd6d564492b7559e763ebacae0b40b7bb1677> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "How do the companies Pneuron, Denodo, and Composite compare in their data virtualization, ETL, Big Data capabilities?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ffbdd6d564492b7559e763ebacae0b40b7bb1677> .
+	schema:name "How do the companies Pneuron, Denodo, and Composite compare in their data virtualization, ETL, Big Data capabilities?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ffbdd6d564492b7559e763ebacae0b40b7bb1677> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "How do the companies Pneuron, Denodo, and Composite compare in their data virtualization, ETL, Big Data capabilities?" ;
-	schema:text """I think we need to be clear about the goals of Data Virtualization and the Attributes associated with products associated with this space.
+	oplfaq:hasAnswerText """I think we need to be clear about the goals of Data Virtualization and the Attributes associated with products associated with this space.
 
 We provide a product called Virtuoso that’s dealt with Data Virtualization since 1998 (when it offered functionality provided by most competitors in this space.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#6dbdd430e592bfacaa8b2025dca5db001cc644d9> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#395ae711724dd3ca9a3cb25bce1933e58d7d9293> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#6dbdd430e592bfacaa8b2025dca5db001cc644d9> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#395ae711724dd3ca9a3cb25bce1933e58d7d9293> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Is there a free ODBC to JDBC bridge software for windows?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#395ae711724dd3ca9a3cb25bce1933e58d7d9293> .
+	schema:name "Is there a free ODBC to JDBC bridge software for windows?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#395ae711724dd3ca9a3cb25bce1933e58d7d9293> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Is there a free ODBC to JDBC bridge software for windows?" ;
-	schema:text "Yes, there is an ODBC-JDBC Bridge Drivers for Windows and other operating system from OpenLink Software. Also note that said bridge also includes support for JDBC Drivers written for Java 8.0." ;
+	oplfaq:hasAnswerText "Yes, there is an ODBC-JDBC Bridge Drivers for Windows and other operating system from OpenLink Software. Also note that said bridge also includes support for JDBC Drivers written for Java 8.0." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#12af162e608cd99b13aaf92dcba503a8f6600e86> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#733efc2da3cce37dccb15a5a4f3310c97bb1c7b7> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#12af162e608cd99b13aaf92dcba503a8f6600e86> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#733efc2da3cce37dccb15a5a4f3310c97bb1c7b7> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Why hasn't ODBC been more successful?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#733efc2da3cce37dccb15a5a4f3310c97bb1c7b7> .
+	schema:name "Why hasn't ODBC been more successful?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#733efc2da3cce37dccb15a5a4f3310c97bb1c7b7> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Why hasn't ODBC been more successful?" ;
-	schema:text "ODBC is a very successful Data Access standard that’s used extensively by a wide variety of applications and services. Fundamentally, these applications and services connect to databases via SQL compliant RDBMS products for which ODBC Drivers have been developed." ;
+	oplfaq:hasAnswerText "ODBC is a very successful Data Access standard that’s used extensively by a wide variety of applications and services. Fundamentally, these applications and services connect to databases via SQL compliant RDBMS products for which ODBC Drivers have been developed." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#194226da41b36695462239e76d2367660ab72b91> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#cb3cf26c8f4f4295b6a8463fa1b52e8ec32bcd2f> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#194226da41b36695462239e76d2367660ab72b91> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#cb3cf26c8f4f4295b6a8463fa1b52e8ec32bcd2f> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Stonebraker describes the \"data swamp\" curation process in this article, but is it specific to structured or also unstructured data?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#cb3cf26c8f4f4295b6a8463fa1b52e8ec32bcd2f> .
+	schema:name "Stonebraker describes the \"data swamp\" curation process in this article, but is it specific to structured or also unstructured data?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#cb3cf26c8f4f4295b6a8463fa1b52e8ec32bcd2f> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Stonebraker describes the \"data swamp\" curation process in this article, but is it specific to structured or also unstructured data?" ;
-	schema:text "The issues outlined by Prof. Stonebraker apply to Data in general. Please understand that the phrase \"structured data\" is quite subjective. Why? Because, Data is always structured otherwise it doesn't exist." ;
+	oplfaq:hasAnswerText "The issues outlined by Prof. Stonebraker apply to Data in general. Please understand that the phrase \"structured data\" is quite subjective. Why? Because, Data is always structured otherwise it doesn't exist." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#83348b91eede910add77d48b3eb546d0f773b73d> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#80906f2cacb470b97481d685b1a8d71d81301dea> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#83348b91eede910add77d48b3eb546d0f773b73d> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#80906f2cacb470b97481d685b1a8d71d81301dea> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Why are Twitter users unhappy about a switch to an algorithmic timeline?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#80906f2cacb470b97481d685b1a8d71d81301dea> .
+	schema:name "Why are Twitter users unhappy about a switch to an algorithmic timeline?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#80906f2cacb470b97481d685b1a8d71d81301dea> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Why are Twitter users unhappy about a switch to an algorithmic timeline?" ;
-	schema:text "The reason why anyone should be unhappy about an algorithmic timeline (by default) is because its a \"big brother\" module obscuring the natural function of a database (the fundamental core of every single application/service in existence)." ;
+	oplfaq:hasAnswerText "The reason why anyone should be unhappy about an algorithmic timeline (by default) is because its a \"big brother\" module obscuring the natural function of a database (the fundamental core of every single application/service in existence)." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#573aeb2ab3684b480066169005e830e809bb59d4> a schema:Question ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#573aeb2ab3684b480066169005e830e809bb59d4> a schema:Question , oplfaq:Question ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
@@ -690,78 +654,74 @@ We provide a product called Virtuoso that’s dealt with Data Virtualization sin
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
 	schema:name "How do you keep up on the latest news on the Semantic Web?" .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e8c929da7f2806040bb48f075ffbd45ad0e7e1f5> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb8bd51e1f5608a0fe0c4a99ef9120b7ad371511> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e8c929da7f2806040bb48f075ffbd45ad0e7e1f5> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb8bd51e1f5608a0fe0c4a99ef9120b7ad371511> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Can I Create & Distribute Structured Data via Quora?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb8bd51e1f5608a0fe0c4a99ef9120b7ad371511> .
+	schema:name "Can I Create & Distribute Structured Data via Quora?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#bb8bd51e1f5608a0fe0c4a99ef9120b7ad371511> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Can I Create & Distribute Structured Data via Quora?" ;
-	schema:text "Here's an attempt at using Nanotation to create and distribute data, information, and knowledge via Quora." ;
+	oplfaq:hasAnswerText "Here's an attempt at using Nanotation to create and distribute data, information, and knowledge via Quora." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ec0a47e5ba91661dabd53eefad92e2dd57809f92> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#891b86ddc07b78454564a0b26565d6d6ddd70caa> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ec0a47e5ba91661dabd53eefad92e2dd57809f92> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#891b86ddc07b78454564a0b26565d6d6ddd70caa> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Linked data and data fusion methods: how do they relate to each other?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#891b86ddc07b78454564a0b26565d6d6ddd70caa> .
+	schema:name "Linked data and data fusion methods: how do they relate to each other?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#891b86ddc07b78454564a0b26565d6d6ddd70caa> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Linked data and data fusion methods: how do they relate to each other?" ;
-	schema:text """Data Fusion is facilitated by Data Flow. The fundamental value proposition of web-like structured data representation (a/k/a Linked Data) is implicit Data Flow.
+	oplfaq:hasAnswerText """Data Fusion is facilitated by Data Flow. The fundamental value proposition of web-like structured data representation (a/k/a Linked Data) is implicit Data Flow.
 
 Linked Data is a powerful piece of infrastructure for Data Fusion via its Data Flow properties :)""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0d534415b8e818ce3d26d94e19274fc27e060f53> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#19e7fa6725da21ef64044845df45b75d5e34d47a> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#0d534415b8e818ce3d26d94e19274fc27e060f53> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#19e7fa6725da21ef64044845df45b75d5e34d47a> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What is semantic analytics?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#19e7fa6725da21ef64044845df45b75d5e34d47a> .
+	schema:name "What is semantic analytics?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#19e7fa6725da21ef64044845df45b75d5e34d47a> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What is semantic analytics?" ;
-	schema:text "Analytics aided by machine- and human-comprehensible entity relationship type semantics (a/k/a relations). Basically, the nature of connections that constitute data ultimately drive the expressivity and eventual quality of an analytics quest. " ;
+	oplfaq:hasAnswerText "Analytics aided by machine- and human-comprehensible entity relationship type semantics (a/k/a relations). Basically, the nature of connections that constitute data ultimately drive the expressivity and eventual quality of an analytics quest. " ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#d64f6c4602898bbb41301032b1515a89541a5b3e> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#39980a70d0da45d20fd7b8fe2c2bf6da21fe50ab> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#d64f6c4602898bbb41301032b1515a89541a5b3e> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#39980a70d0da45d20fd7b8fe2c2bf6da21fe50ab> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What's the current views David J. DeWitt and Michael Stonebraker hold for MapReduce?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#39980a70d0da45d20fd7b8fe2c2bf6da21fe50ab> .
+	schema:name "What's the current views David J. DeWitt and Michael Stonebraker hold for MapReduce?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#39980a70d0da45d20fd7b8fe2c2bf6da21fe50ab> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What's the current views David J. DeWitt and Michael Stonebraker hold for MapReduce?" ;
-	schema:text """The steps outlined by the esteemed Prof. remain unchanged:
+	oplfaq:hasAnswerText """The steps outlined by the esteemed Prof. remain unchanged:
 
 Step 1: Adopt Hadoop for pilot projects.
 Step 2: Scale Hadoop to production use.
@@ -769,74 +729,70 @@ Step 3: Observe an unacceptable performance penalty.
 Step 4: Morph to a real parallel DBMS.""" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#07da3e550e69e49f713d31b7a45e0e47ed18b4cd> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#61fa7f4cb12a9b46cd4a179d6d261ced4231198b> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#07da3e550e69e49f713d31b7a45e0e47ed18b4cd> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#61fa7f4cb12a9b46cd4a179d6d261ced4231198b> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Is RDF necessary to realize the dream of Semantic Web and Linked Data? Why or Why not?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#61fa7f4cb12a9b46cd4a179d6d261ced4231198b> .
+	schema:name "Is RDF necessary to realize the dream of Semantic Web and Linked Data? Why or Why not?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#61fa7f4cb12a9b46cd4a179d6d261ced4231198b> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Is RDF necessary to realize the dream of Semantic Web and Linked Data? Why or Why not?" ;
-	schema:text "RDF, Semantic Web, and Linked Data are related items, but not the same thing. You can craft #InterWeb scale Linked Data using formats outside #RDF as demonstrated by Microsoft (#OData), Google, Bing!, Yahoo! (#Microdata)." ;
+	oplfaq:hasAnswerText "RDF, Semantic Web, and Linked Data are related items, but not the same thing. You can craft #InterWeb scale Linked Data using formats outside #RDF as demonstrated by Microsoft (#OData), Google, Bing!, Yahoo! (#Microdata)." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#aa686771be379cb64001693695974c3778b58362> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1b8aa6d7b2fe216aa0524c0dbab8b7ecd68c9b7> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#aa686771be379cb64001693695974c3778b58362> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1b8aa6d7b2fe216aa0524c0dbab8b7ecd68c9b7> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "Is 'big data' indifferent to the semantic web, i.e. linked data?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1b8aa6d7b2fe216aa0524c0dbab8b7ecd68c9b7> .
+	schema:name "Is 'big data' indifferent to the semantic web, i.e. linked data?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#e1b8aa6d7b2fe216aa0524c0dbab8b7ecd68c9b7> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "Is 'big data' indifferent to the semantic web, i.e. linked data?" ;
-	schema:text "The artificially disjoint and disconnected nature of the BigData, LinkedData, and SemanticWeb labels speaks volumes about how dangerous labels can be when left solely in the hands of marketeers, really!" ;
+	oplfaq:hasAnswerText "The artificially disjoint and disconnected nature of the BigData, LinkedData, and SemanticWeb labels speaks volumes about how dangerous labels can be when left solely in the hands of marketeers, really!" ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#d3b52b3b0d332826d55ad807b4a0d0bd7d4b3918> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#36fe45836f85c6d97c836dc9cd11e9f4f2203454> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#d3b52b3b0d332826d55ad807b4a0d0bd7d4b3918> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#36fe45836f85c6d97c836dc9cd11e9f4f2203454> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the favoured approaches to assigning URI's to arbitrary literal terms extracted using NLP techniques, in the Semantic Web?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#36fe45836f85c6d97c836dc9cd11e9f4f2203454> .
+	schema:name "What are the favoured approaches to assigning URI's to arbitrary literal terms extracted using NLP techniques, in the Semantic Web?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#36fe45836f85c6d97c836dc9cd11e9f4f2203454> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the favoured approaches to assigning URI's to arbitrary literal terms extracted using NLP techniques, in the Semantic Web?" ;
-	schema:text "I don't totally understand this question, but you can look at our URIBurner service which will make URI based Name References arbitrarily for an Resource that has a URL. We refer to these as Proxy URIs." ;
+	oplfaq:hasAnswerText "I don't totally understand this question, but you can look at our URIBurner service which will make URI based Name References arbitrarily for an Resource that has a URL. We refer to these as Proxy URIs." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
 
-<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ad9424e65787413f17eceb148830d3447b205670> a schema:Question ;
-	schema:acceptedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b73d61bfb21b8997ea52839bd9ef768a40a67dc9> ;
+<http://data.openlinksw.com/oplweb/faq/Virtuoso/question#ad9424e65787413f17eceb148830d3447b205670> a schema:Question , oplfaq:Question ;
+	oplfaq:answer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b73d61bfb21b8997ea52839bd9ef768a40a67dc9> ;
 	schema:answerCount "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2018-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:mainEntity <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> ;
-	schema:name "What are the prospects for federated searches of multiple linked data sources?" ;
-	schema:suggestedAnswer <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b73d61bfb21b8997ea52839bd9ef768a40a67dc9> .
+	schema:name "What are the prospects for federated searches of multiple linked data sources?" .
 
 <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#b73d61bfb21b8997ea52839bd9ef768a40a67dc9> a schema:Answer ;
 	schema:author <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	schema:dateCreated "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:dateModified "2019-06-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	schema:name "What are the prospects for federated searches of multiple linked data sources?" ;
-	schema:text "SPARQL-FED is an option for dealing with the challenges associated with Federated Linked Data Sources." ;
+	oplfaq:hasAnswerText "SPARQL-FED is an option for dealing with the challenges associated with Federated Linked Data Sources." ;
 	pwdr:describedBy <http://data.openlinksw.com/oplweb/faq/Virtuoso/question#this> .
